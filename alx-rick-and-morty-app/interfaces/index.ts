@@ -22,4 +22,5 @@ export interface State {
 
 export interface ErrorBoundaryProps {
     children: ReactNode;
+    errorComponent: ReactNode;
 }
